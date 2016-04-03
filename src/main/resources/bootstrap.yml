@@ -1,0 +1,9 @@
+spring: 
+  application: 
+    name: HYSTRIX-DASHBOARD
+
+
+# HTTP Server
+server:
+  port: 8767   # HTTP (Tomcat) port
+  contextPath: /hystrixdashboard
