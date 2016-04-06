@@ -5,3 +5,8 @@ eureka:
       defaultZone: http://localhost:8763/eureka/
   instance:
     preferIpAddress: true
+
+#turbine:
+#  aggregator:
+#    clusterConfig: CLIENT-SERVICE2
+#  appConfig: CLIENT-SERVICE2
